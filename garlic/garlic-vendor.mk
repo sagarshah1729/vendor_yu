@@ -66,11 +66,15 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
     vendor/yu/garlic/proprietary/vendor/lib/camera.device@1.0-impl.so:system/vendor/lib/camera.device@1.0-impl.so \
     vendor/yu/garlic/proprietary/vendor/lib/camera.device@3.2-impl.so:system/vendor/lib/camera.device@3.2-impl.so \
+    vendor/yu/garlic/proprietary/vendor/lib/vendor.qti.hardware.camera.device@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.camera.device@1.0_vendor.so \ 
+    vendor/yu/garlic/proprietary/vendor/lib/vendor.qti.hardware.camera.tinnodevice@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.camera.tinnodevice@1.0_vendor.so \
     vendor/yu/garlic/proprietary/vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so:system/vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so \
     vendor/yu/garlic/proprietary/vendor/lib/hw/camera.msm8937.so:system/vendor/lib/hw/camera.msm8937.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmm-qcamera.so:system/vendor/lib/libmm-qcamera.so \
     vendor/yu/garlic/proprietary/vendor/lib64/camera.device@1.0-impl.so:system/vendor/lib64/camera.device@1.0-impl.so \
     vendor/yu/garlic/proprietary/vendor/lib64/camera.device@3.2-impl.so:system/vendor/lib64/camera.device@3.2-impl.so \
+    vendor/yu/garlic/proprietary/vendor/lib64/vendor.qti.hardware.camera.device@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.camera.device@1.0_vendor.so \
+    vendor/yu/garlic/proprietary/vendor/lib64/vendor.qti.hardware.camera.tinnodevice@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.camera.tinnodevice@1.0_vendor.so \
     vendor/yu/garlic/proprietary/vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so:system/vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so \
     vendor/yu/garlic/proprietary/vendor/bin/hw/android.hardware.camera.provider@2.4-service:system/vendor/bin/hw/android.hardware.camera.provider@2.4-service \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_interface.so:system/vendor/lib/libmmcamera_interface.so \
@@ -268,6 +272,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml:system/vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml \
     vendor/yu/garlic/proprietary/vendor/etc/data/dsi_config.xml:system/vendor/etc/data/dsi_config.xml \
     vendor/yu/garlic/proprietary/vendor/etc/data/netmgr_config.xml:system/vendor/etc/data/netmgr_config.xml \
+    vendor/yu/garlic/proprietary/vendor/etc/init/android.hardware.camera.provider@2.4-service.rc:system/vendor/etc/init/android.hardware.camera.provider@2.4-service.rc \
     vendor/yu/garlic/proprietary/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc:system/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc \
     vendor/yu/garlic/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:system/vendor/etc/init/vendor.display.color@1.0-service.rc \
     vendor/yu/garlic/proprietary/vendor/etc/init/vendor.qti.gnss@1.0-service.rc:system/vendor/etc/init/vendor.qti.gnss@1.0-service.rc \
@@ -351,6 +356,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/yu/garlic/proprietary/vendor/lib/libc2d30-a5xx.so:system/vendor/lib/libc2d30-a5xx.so \
     vendor/yu/garlic/proprietary/vendor/lib/libc2d30_bltlib.so:system/vendor/lib/libc2d30_bltlib.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libcamerammdata.so:system/vendor/lib/libcamerammdata.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_csidtg_common.so:system/vendor/lib/libchromatix_csidtg_common.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_csidtg_cpp_preview.so:system/vendor/lib/libchromatix_csidtg_cpp_preview.so \
@@ -640,6 +646,8 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
     vendor/yu/garlic/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
     vendor/yu/garlic/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libvidhance.so:system/vendor/lib/libvidhance.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libvidhance_gyro.so:system/vendor/lib/libvidhance_gyro.so \
     vendor/yu/garlic/proprietary/vendor/lib/libvpplibrary.so:system/vendor/lib/libvpplibrary.so \
     vendor/yu/garlic/proprietary/vendor/lib/libvqzip.so:system/vendor/lib/libvqzip.so \
     vendor/yu/garlic/proprietary/vendor/lib/libwfdavenhancements.so:system/vendor/lib/libwfdavenhancements.so \
