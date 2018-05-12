@@ -64,6 +64,18 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/etc/appops_policy.xml:system/etc/appops_policy.xml \
     vendor/yu/garlic/proprietary/etc/audio_platform_info_extcodec.xml:system/etc/audio_platform_info_extcodec.xml \
     vendor/yu/garlic/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
+    vendor/yu/garlic/proprietary/vendor/lib/camera.device@1.0-impl.so:system/vendor/lib/camera.device@1.0-impl.so \
+    vendor/yu/garlic/proprietary/vendor/lib/camera.device@3.2-impl.so:system/vendor/lib/camera.device@3.2-impl.so \
+    vendor/yu/garlic/proprietary/vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so:system/vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so \
+    vendor/yu/garlic/proprietary/vendor/lib/hw/camera.msm8937.so:system/vendor/lib/hw/camera.msm8937.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libmm-qcamera.so:system/vendor/lib/libmm-qcamera.so \
+    vendor/yu/garlic/proprietary/vendor/lib64/camera.device@1.0-impl.so:system/vendor/lib64/camera.device@1.0-impl.so \
+    vendor/yu/garlic/proprietary/vendor/lib64/camera.device@3.2-impl.so:system/vendor/lib64/camera.device@3.2-impl.so \
+    vendor/yu/garlic/proprietary/vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so:system/vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so \
+    vendor/yu/garlic/proprietary/vendor/bin/hw/android.hardware.camera.provider@2.4-service:system/vendor/bin/hw/android.hardware.camera.provider@2.4-service \
+    vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_interface.so:system/vendor/lib/libmmcamera_interface.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libmmjpeg_interface.so:system/vendor/lib/libmmjpeg_interface.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libqomx_core.so:system/vendor/lib/libqomx_core.so \
     vendor/yu/garlic/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/yu/garlic/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/yu/garlic/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
