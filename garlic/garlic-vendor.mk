@@ -66,7 +66,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
     vendor/yu/garlic/proprietary/vendor/lib/camera.device@1.0-impl.so:system/vendor/lib/camera.device@1.0-impl.so \
     vendor/yu/garlic/proprietary/vendor/lib/camera.device@3.2-impl.so:system/vendor/lib/camera.device@3.2-impl.so \
-    vendor/yu/garlic/proprietary/vendor/lib/vendor.qti.hardware.camera.device@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.camera.device@1.0_vendor.so \ 
+    vendor/yu/garlic/proprietary/vendor/lib/vendor.qti.hardware.camera.device@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.camera.device@1.0_vendor.so \
     vendor/yu/garlic/proprietary/vendor/lib/vendor.qti.hardware.camera.tinnodevice@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.camera.tinnodevice@1.0_vendor.so \
     vendor/yu/garlic/proprietary/vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so:system/vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so \
     vendor/yu/garlic/proprietary/vendor/lib/hw/camera.msm8937.so:system/vendor/lib/hw/camera.msm8937.so \
